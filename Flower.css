@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#ed32a6;
+    width:100vw;
+    height:100vh;
+    object-fit:cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    height:100vh;
+    width:100vw;
+
+    font-family:Arial, sans-serif;
+}
+
+.container{
+    text-align:center;
+}
+
+.kucing{
+    width:20%;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#000000;
+    margin-bottom:60px;
+}
+
+.button-container{
+    position:relative;
+}
+
+button{
+    padding:30px 70px;
+    border:none;
+    border-radius:25px;
+    font-size:25px;
+    cursor:pointer;
+}
+
+#yesBtn{
+    background-color:#06910a;
+    color:white;
+    margin-right:15px;
+}
+
+#noBtn{
+    background-color:#aa1207;
+    color:white;
+    margin-right:40px;
+
+    position:absolute;
+    
+}
